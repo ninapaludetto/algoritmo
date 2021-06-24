@@ -1,0 +1,17 @@
+algoritmo "ParOuImpar"
+// Função :
+// Autor :
+// Data : 07/06/2021
+// Seção de Declarações 
+var
+   N: Inteiro
+inicio
+      Escreva ("Digite um numero qualquer: ")
+      Leia (N)
+      Se (N % 2 = 0) entao
+         Escreva ("O numero ", N, " e PAR! ")
+      senao
+         Escreva ("O numero ", N, " e IMPAR! ")
+      FimSe
+// Seção de Comandos 
+fimalgoritmo
