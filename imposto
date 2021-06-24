@@ -1,0 +1,14 @@
+algoritmo "semnome"
+// Função :
+// Autor :
+// Data : 06/06/2021
+// Seção de Declarações 
+var
+   preco, imposto: Real
+inicio
+      Escreva ("Qual o valor da compra? ")
+      Leia (preco)
+      imposto <- (preco * 60)/100
+      Escreva ("O imposto a pagar é ", imposto:5:2, "!")
+// Seção de Comandos 
+fimalgoritmo
