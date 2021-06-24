@@ -1,0 +1,14 @@
+algoritmo "comprardolar"
+// Função :
+// Autor :
+// Data : 06/06/2021
+// Seção de Declarações 
+var
+   reais, dolares: Real
+inicio
+      Escreva ("Quantos reais eu tenho? R$ ")
+      Leia (reais)
+      dolares <- reais/5
+      Escreva ("Posso comprar USD ", dolares)
+// Seção de Comandos 
+fimalgoritmo
