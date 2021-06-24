@@ -1,0 +1,29 @@
+algoritmo "semnome"
+// Função :
+// Autor :
+// Data : 10/06/2021
+// Seção de Declarações 
+var
+   N1, N2, media: Real
+
+inicio
+      Escreval ("----------------------------")
+      Escreval (   "Escola Evil Papagalis")
+      Escreval ("----------------------------")
+      Escreva ("Primeira nota: ")
+      Leia (N1)
+      Escreva ("Segunda nota: ")
+      Leia (N2)
+      Escreval ("----------------------------")
+      media <- (N1 + N2) / 2
+      Escreval ("Media: ", media)
+      Se (media = 10) entao
+          Escreval ("Aproveitamento: A ")
+          senao
+               Se (media > 9) e (media = 8) entao
+                    Escreval ("Aproveitamento: B ")
+               FimSe
+      FimSe
+
+// Seção de Comandos 
+fimalgoritmo
