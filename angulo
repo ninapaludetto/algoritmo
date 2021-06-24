@@ -1,0 +1,14 @@
+algoritmo "semnome"
+// Função :
+// Autor :
+// Data : 04/06/2021
+// Seção de Declarações 
+var
+   angulo, S: Real
+inicio
+      Escreva ("Informe o angulo: ")
+      Leia (angulo)
+      S <- Sen(GraupRad(angulo))
+      Escreva ("O seno de ", angulo, " e igual a " , S)
+// Seção de Comandos 
+fimalgoritmo
