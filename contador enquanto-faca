@@ -1,0 +1,22 @@
+algoritmo "semnome"
+// Função :
+// Autor :
+// Data : 10/06/2021
+// Seção de Declarações 
+var
+   in, fi, contador: Inteiro
+inicio
+      Escreva ("CONTAGEM INTELIGENTE")
+      Escreval ("--------------------")
+      Escreva ("Inicio: ")
+      Leia (in)
+      Escreva ("Fim: ")
+      Leia (fi)
+      Escreval ("--------------------")
+      Escreval        ("CONTANDO")
+      Escreval ("--------------------")
+      contador <- 0
+      Enquanto (contador <= fi) faca
+               Escreva (contador)
+               contador <- contador + 1
+      FimEnquanto
